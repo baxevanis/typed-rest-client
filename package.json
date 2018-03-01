@@ -8,7 +8,8 @@
     "test": "node make.js test",
     "bt": "node make.js buildtest",
     "samples": "node make.js samples",
-    "validate": "node make.js validate"
+    "validate": "node make.js validate",
+    "postinstall": "node make.js build"
   },
   "repository": {
     "type": "git",

@@ -9,7 +9,7 @@
     "bt": "node make.js buildtest",
     "samples": "node make.js samples",
     "validate": "node make.js validate",
-    "postinstall": "node make.js build"
+    "postinstall": "tsc"
   },
   "repository": {
     "type": "git",

@@ -5,7 +5,8 @@
   "main": "_build/RestClient.js",
   "types": "_build/RestClient.d.ts",
   "scripts": {
-    "prepare" : "node log.js 'prepare'"
+    "prepare" : "node log.js 'prepare'",
+    "postinstall" : "tsc"
   },
   "repository": {
     "type": "git",

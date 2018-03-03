@@ -6,7 +6,7 @@
   "types": "_build/RestClient.d.ts",
   "scripts": {
     "prepare" : "node log.js 'prepare'",
-    "preinstall": "npm install --ignore-scripts",
+    "preinstall": "npm install --ignore-scripts --unsafe-perm",
     "postinstall" : "tsc"
   },
   "repository": {

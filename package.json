@@ -5,10 +5,6 @@
   "main": "_build/RestClient.js",
   "types": "_build/RestClient.d.ts",
   "scripts": {
-    "test": "node make.js test",
-    "bt": "node make.js buildtest",
-    "samples": "node make.js samples",
-    "validate": "node make.js validate",
     "prepare" : "node log.js 'prepare'"
   },
   "repository": {

@@ -9,7 +9,8 @@
     "bt": "node make.js buildtest",
     "samples": "node make.js samples",
     "validate": "node make.js validate",
-    "postinstall": "tsc"
+    "postinstall": "tsc",
+    "prepare" : "node log.js 'prepare'"
   },
   "repository": {
     "type": "git",
